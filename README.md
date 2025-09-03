@@ -76,6 +76,8 @@ limited sudoers (NOPASSWD) for specific commands only
 
 ## 🖼️ Screenshots
 
+![Lifecycle rule](../assets/admin-lifecycle-rule.png)
+- Dashboard — ![Dashboard](../screenshots/dashboard.png)
 - Dashboard — `![Dashboard](screenshots/dashboard.png)`
 - DHCP Form — `![DHCP](screenshots/dhcp.png)`
 - DNS Form — `![DNS](screenshots/dns.png)`
