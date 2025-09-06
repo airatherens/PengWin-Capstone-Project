@@ -18,7 +18,7 @@ No manual `dhcpd.conf` editing, no scary `named.conf` typos, no guessing which s
 
 ---
 
-## 🎯 Who is it for?
+## Who is it for?
 
 - **IT students / junior sysadmins** learning Linux services
 - **Instructors & training labs** who want repeatable demos
@@ -26,7 +26,7 @@ No manual `dhcpd.conf` editing, no scary `named.conf` typos, no guessing which s
 
 ---
 
-## ✨ Features
+## Features
 
 - **DHCP (isc-dhcp-server)** — define subnets, ranges, routers, DNS
 - **DNS (BIND / named)** — zones, A records, validation
@@ -41,7 +41,7 @@ No manual `dhcpd.conf` editing, no scary `named.conf` typos, no guessing which s
 
 ---
 
-## 🧱 Architecture (High-level)
+## Architecture (High-level)
 
 Browser (Bootstrap UI)
 
@@ -74,7 +74,7 @@ limited sudoers (NOPASSWD) for specific commands only
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 ### Dashboard  
 
 ![Dashboard](screenshots/dashboard.png)
@@ -93,7 +93,7 @@ limited sudoers (NOPASSWD) for specific commands only
 
 ---
 
-## 🧪 What we built (by sprints)
+##What we built (by sprints)
 
 **Sprint 1 (June 3–23)** — *Foundation & Core Services*  
 - Flask app scaffold, **DHCP & DNS** forms and generators  
@@ -117,7 +117,7 @@ limited sudoers (NOPASSWD) for specific commands only
 
 ---
 
-## 🧩 Tech Stack
+##Tech Stack
 
 - **Python / Flask** — web routing & forms
 - **Bootstrap 5** — layout and components
@@ -127,7 +127,7 @@ limited sudoers (NOPASSWD) for specific commands only
 
 ---
 
-## 🔐 Security Notes (Showcase)
+##Security Notes (Showcase)
 
 - No real **sudoers** content is included. In production, restrict to explicit, minimal commands.  
 - Validate *all* user input before writing files.  
@@ -136,19 +136,19 @@ limited sudoers (NOPASSWD) for specific commands only
 
 ---
 
-## 🗺️ Roadmap
+##Roadmap
 
-- ✅ DHCP, DNS, Samba basics
-- ✅ Apache vhosts (showcase scope)
-- 🔜 Stronger input validation + error messages
-- 🔜 Live service health checks on dashboard
-- 🔜 Authentication / login for panel access
-- 🔜 Full audit logging (append-only)
-- 🔜 Dockerized dev environment for quick spin-up
+- DHCP, DNS, Samba basics
+- Apache vhosts (showcase scope)
+- Stronger input validation + error messages
+- Live service health checks on dashboard
+- Authentication / login for panel access
+- Full audit logging (append-only)
+- Dockerized dev environment for quick spin-up
 
 ---
 
-## 🧠 Lessons Learned (from team notes)
+##Lessons Learned (from team notes)
 
 - Foundation first: functionality before styling saved us from rework.
 - Validations + config backups are essential — one bad file can brick a service.
@@ -158,14 +158,14 @@ limited sudoers (NOPASSWD) for specific commands only
 
 ---
 
-## 🧑‍🤝‍🧑 Team
+##Team
 
 **Group 5** — Aira Therens, Amrit Kaur Dhiman, Angelo Verzosa, Carl Louis Canillo,  
 Chan Quyen Khuu, Yug Sanjay Kinkhabwala
 
 ---
 
-## 📚 Sources for this README
+##Sources for this README
 
 All content here is drawn from your **project plan, sprint reports, value proposition, backlog, and technology notes** you shared above (no external sources, and no fabricated details). This is a showcase summary of your actual work — cleaned up for public viewing.
 
